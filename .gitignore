@@ -1,4 +1,5 @@
 # add your own gitignore rules
+*.zwc
 
 # do not change under this line!
 #############################
