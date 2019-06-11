@@ -1,5 +1,16 @@
-# add your own gitignore rules
+### add your own gitignore rules
+
+## Antigen
+antigen/*
+
+# cache files
 *.zwc
+
+
+
+
+# PhpStorm
+.idea
 
 # do not change under this line!
 #############################
