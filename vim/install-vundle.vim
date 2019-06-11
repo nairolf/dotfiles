@@ -20,6 +20,10 @@
     Plugin 'scrooloose/syntastic'               " uber awesome syntax and errors highlighter
     Plugin 'altercation/vim-colors-solarized'   " T-H-E colorscheme
     Plugin 'tpope/vim-fugitive'                 " So awesome, it should be illegal
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
+    Plugin 'airblade/vim-gitgutter'
+    Plugin 'scrooloose/nerdtree'
 
     if iCanHazVundle == 0
         echo "Installing Vundles, please ignore key map error messages"
