@@ -8,6 +8,10 @@ https://github.com/vim-airline/vim-airline
 https://github.com/scrooloose/nerdtree  
 https://github.com/airblade/vim-gitgutter
 
+https://github.com/jimeh/tmux-themepack
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 
 # later
 https://valloric.github.io/YouCompleteMe/
