@@ -1,3 +1,6 @@
+# add local shellscript dir to PATH 
+export PATH=~/bin:$PATH
+
 # see https://github.com/zsh-users/antigen/issues/669
 case $(uname -a) in
    *Microsoft*) unsetopt BG_NICE ;;
