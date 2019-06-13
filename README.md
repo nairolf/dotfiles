@@ -12,10 +12,13 @@ https://github.com/jimeh/tmux-themepack
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+https://github.com/wilmoore/php-version  
+https://github.com/xellos866/php-version_rcfile-switcher (not working)
 
 # later
 https://valloric.github.io/YouCompleteMe/
-https://github.com/editorconfig/editorconfig-vim
+https://github.com/editorconfig/editorconfig-vim  
+https://github.com/tpope/vim-obsession  
 
 # find plugins. etc
 https://vimawesome.com

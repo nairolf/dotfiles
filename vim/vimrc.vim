@@ -22,6 +22,8 @@ set smartindent	    " Enable smart-indent
 set smarttab	    " Enable smart-tabs
 set softtabstop=4	" Number of spaces per Tab
 
+" set mouse=a
+
 " Advanced
 set ruler	" Show row and column ruler information
 
@@ -37,3 +39,9 @@ let g:airline_solarized_bg='dark'
 
 " commands
 map <C-o> :NERDTreeToggle<CR>
+
+" resize window CTRL+(h|j|k|l)
+" noremap <C-j> :resize +1<CR>
+" noremap <C-k> :resize -1<CR>
+" noremap <C-h> :vertical resize -1<CR>
+" noremap <C-l> :vertical resize +1<CR>

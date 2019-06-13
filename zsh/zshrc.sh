@@ -11,6 +11,11 @@ export TERM=xterm-256color
 ANTIGEN_PATH=~/dotfiles/antigen
 ZSH_PATH=~/dotfiles/zsh
 
+# php-version
+source $(brew --prefix php-version)/php-version.sh # && php-version 7.2
+# source $HOME/local/php-version/php-version.sh && php-version 7.1 # or your place of choice
+# PHPVRC_DEFAULT=7.2
+
 ## plugin options
 
 # zsh-autosuggestions (https://github.com/zsh-users/zsh-autosuggestions)
@@ -24,8 +29,12 @@ ZSH_TMUX_AUTOSTART='true'
 ZSH_TMUX_FIXTERM=true
 
 ## theme options
-# powerline10k
+# powerlevel10k
 POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time dir_writable ssh php_version )
 
 source $ANTIGEN_PATH/bin/antigen.zsh
 
