@@ -11,6 +11,11 @@ export TERM=xterm-256color
 ANTIGEN_PATH=~/dotfiles/antigen
 ZSH_PATH=~/dotfiles/zsh
 
+# php-version
+source $(brew --prefix php-version)/php-version.sh # && php-version 7.2
+# source $HOME/local/php-version/php-version.sh && php-version 7.1 # or your place of choice
+# PHPVRC_DEFAULT=7.2
+
 ## plugin options
 
 # zsh-autosuggestions (https://github.com/zsh-users/zsh-autosuggestions)
