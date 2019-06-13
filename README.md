@@ -15,7 +15,8 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # later
 https://valloric.github.io/YouCompleteMe/
-https://github.com/editorconfig/editorconfig-vim
+https://github.com/editorconfig/editorconfig-vim  
+https://github.com/tpope/vim-obsession  
 
 # find plugins. etc
 https://vimawesome.com

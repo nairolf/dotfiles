@@ -24,8 +24,12 @@ ZSH_TMUX_AUTOSTART='true'
 ZSH_TMUX_FIXTERM=true
 
 ## theme options
-# powerline10k
+# powerlevel10k
 POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time dir_writable ssh php_version )
 
 source $ANTIGEN_PATH/bin/antigen.zsh
 
