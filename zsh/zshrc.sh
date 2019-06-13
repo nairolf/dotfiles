@@ -1,6 +1,13 @@
 # add local shellscript dir to PATH 
 export PATH=~/bin:$PATH
 
+# phpenv settings
+export PHPENV_ROOT="$HOME/.phpenv"
+if [ -d "${PHPENV_ROOT}" ]; then
+  export PATH="${PHPENV_ROOT}/bin:${PATH}"
+  eval "$(phpenv init -)"
+fi
+
 # see https://github.com/zsh-users/antigen/issues/669
 case $(uname -a) in
    *Microsoft*) unsetopt BG_NICE ;;
