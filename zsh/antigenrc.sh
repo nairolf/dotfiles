@@ -3,13 +3,16 @@ antigen use oh-my-zsh
 
 ## theme
 antigen theme romkatv/powerlevel10k
+# install font
+# brew tap homebrew/cask-fonts
+# brew cask install font-meslo-lg-nerd-font
 
 ## plugins
 # oh-my-zsh plugins
 antigen bundle docker
 antigen bundle git
 antigen bundle git-fast
-antigen bundle git-flow
+# antigen bundle git-flow
 antigen bundle tmux
 # Change directory based on history (https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins#z)
 antigen bundle z
